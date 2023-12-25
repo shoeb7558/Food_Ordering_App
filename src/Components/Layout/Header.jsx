@@ -1,7 +1,9 @@
 import React from 'react'
 import  './HeaderCss.css'
 import mealsImage from '../../assets/meals.jpg';
-import CartIcon from '../UI/carticon';
+import HeaderCartButton from './HeaderCartButton';
+
+
 
 
 
@@ -15,7 +17,7 @@ const  Header = () => {
         <h2>ReactMeals</h2>
       </div>
       <div className='HeaderDiv3' >
-        <button className='HeaderButton1'> <CartIcon />Your Cart</button>
+      <HeaderCartButton />
       </div>
       
     </div>
