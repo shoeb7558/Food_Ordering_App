@@ -1,11 +1,15 @@
 import React from 'react'
 import Header from './Components/Layout/Header'
 import Meals from './Components/Meals/Meals'
+import Cart from './Components/Carts/Cart'
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      <Cart/>
+      <Header>
+
+      </Header>
       <main>
         <Meals />
       </main>
