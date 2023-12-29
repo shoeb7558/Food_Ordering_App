@@ -8,7 +8,7 @@ import HeaderCartButton from './HeaderCartButton';
 
 
 
-const  Header = () => {
+const  Header = (props) => {
   return (
     <>
 
@@ -17,7 +17,7 @@ const  Header = () => {
         <h2>ReactMeals</h2>
       </div>
       <div className='HeaderDiv3' >
-      <HeaderCartButton />
+      <HeaderCartButton onClick={props.onShowCart}/>
       </div>
       
     </div>
